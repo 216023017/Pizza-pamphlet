@@ -1,0 +1,47 @@
+body {
+    background-color: chartreuse;
+}
+h1,h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.pizza {
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3.5px solid #f2f5f4;
+    flex:1;
+    
+}
+
+.medium_pizza {
+    background-color: #219ebc;   
+}
+
+.large_pizza {
+    background-color: #ff006e;    
+}
+
+.small_pizza {
+    background-color: #e85d04;
+}
+
+.contact_us{
+    background-color: #ffba08;
+}
+
+@media(min-width: 960px){
+    .moon{
+        display: flex
+    ;
+    
+    }
+}
+.sun {
+    text-align: right;
+}
+.base{
+    image-resolution: 1em;
+}
